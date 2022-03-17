@@ -66,7 +66,7 @@ model.to(device)
 optimizer = torch.optim.Adam(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
 
 
-def train(epoch, best_loss, best_acc):
+def train(epoch, best_acc):
     model.train()
     train_loss = 0
     train_acc = 0
@@ -130,10 +130,9 @@ def train(epoch, best_loss, best_acc):
 
 
 print('start training')
-best_loss = np.inf
 best_acc = 0
 for epoch in range(args.epochs):
-    test_acc = train(epoch, best_loss, best_acc)
+    test_acc = train(epoch, best_acc)
     if test_acc > best_acc:
         best_acc = test_acc
         best_epoch_acc = epoch
