@@ -3,12 +3,12 @@ This is a PyTorch implementation of the IAGNN model from paper [Interaction-Awar
 Diagnosis of Complex Industrial Processes](DOI: 10.1109/TNNLS.2021.3132376)
 
 # Platform
-Python                             3.7
-Pytorch                            1.7.0+cu110
-torch-cluster                      1.5.8
-torch-geometric                    1.6.1
-torch-scatter                      2.0.5
-torch-sparse                       0.6.8
+- Python                             3.7
+- Pytorch                            1.7.0+cu110
+- torch-cluster                      1.5.8
+- torch-geometric                    1.6.1
+- torch-scatter                      2.0.5
+- torch-sparse                       0.6.8
 
 # Citing
 If you find IAGNN useful for your research, please citing the following paper:
