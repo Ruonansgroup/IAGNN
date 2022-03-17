@@ -10,7 +10,13 @@ Diagnosis of Complex Industrial Processes](DOI: 10.1109/TNNLS.2021.3132376)
 - torch-scatter                      2.0.5
 - torch-sparse                       0.6.8
 
-# Citing
+# Dependencies
+
+* [torch-geometric](https://github.com/rusty1s/pytorch_geometric) >= 1.6.0
+* [HGP-SL](https://github.com/cszhangzhen/HGP-SL)
+* [sparse-softmax](https://github.com/OpenNMT/OpenNMT-py/blob/master/onmt/modules/sparse_activations.py)
+
+# Citation
 If you find IAGNN useful for your research, please citing the following paper:
 
 @ARTICLE{9655479,
